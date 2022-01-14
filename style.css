@@ -3,7 +3,7 @@
     width: 100%;
 }
 .container{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin-left: 0;
     padding: 30px;
   
@@ -34,7 +34,7 @@ nav{
 }
 
 .top-banner{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,7 @@ h1{
 }
 .banner-info{
     width: 50%;
+    margin-left: 50px;
 }
 .img{ 
     width: 30%;
@@ -59,7 +60,18 @@ h1{
     box-shadow: rgba(128, 128, 128, 0.418);
     justify-content: center;
     border: 3px solid black;
-    width: 60%;
+    /* width: 60%; */
     height: 50px;
-    margin-left: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+footer{
+    background-color: darkblue;
+    color: lavender;
+}
+.footer-item{
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
 }
