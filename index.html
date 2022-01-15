@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gear</title>
+    <!-- _______________________________________________style sheet____________________________________________________________________
+    _____________________________________________________________________________________________________________________________ -->
     <link rel="stylesheet" href="style.css">
+    <!-- _________________________________________google.font__________________________________________________________ -->
+    <!-- ________________________________________________________________________________________________________________________ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500&display=swap"
         rel="stylesheet">
+    <!-- ________________________________________________________________________________ -->
     <!-- --------font awesome:script source--------------------------- -->
     <script src="https://kit.fontawesome.com/d16c7b340c.js" crossorigin="anonymous"></script>
 </head>
@@ -18,22 +23,28 @@
 <body>
     <!-- -----------------------header start------------------------------------- -->
     <header>
-        <nav class="container">
-            <h2>Influencer Products</h2>
-            <dev class="menu-item">
-                <ul class="navigation-menu">
-                    <li> <a href="">Home</a></li>
-                    <li> <a href="">Products</a> </li>
-                    <li><a href="">Sign Up</a></li>
-                    <li><a href="">Log In</a> </li>
-                </ul>
-                <div class="fas">
-                    <i class=" fas fa-shopping-cart"></i>
-                    <i class="fas fa-search"></i>
-                </div>
-            </dev>
+        <div class="nav-bar">
+            <div class="h2-part">
+                <h2>Influencer Products</h2>
+            </div>
+            <ul class="navbar-ul">
+                <li> <a href="">Home</a></li>
+                <li> <a href="">Products</a> </li>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Log In</a> </li>
+                <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+            </ul>
 
-        </nav>
+
+        </div>
+
+    </header>
+    <!-- ___________________header end_____________________ -->
+
+
+    <!-- ______________________main part start_____________________________ -->
+    <main>
         <section>
             <div class="top-banner">
                 <div class="banner-info">
@@ -53,122 +64,204 @@
             </div>
         </section>
         <hr>
-        <section>
-            <div class="box-items">
-                <i class="fab fa-amazon"></i>
-                <i class="fas fa-ad"></i>
-                <i class="fas fa-hamburger"></i>
-                <i class="fas fa-hamburger"></i>
-            </div>
-            <hr>
+        <hr>
 
+
+        <!-- _____________________collection part___________________________ -->
+        <section class="container">
+            <div class="collection">
+                <h2 class="section-title">Popular Collection</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/tripod.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Flex Tripod</h2>
+                            <h3>$1800.80</h3>
+
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.99</span>
+                            </div>
+                            <p class="blog-info">Worldwide shifting available</p>
+                            <p>Buyers protection posiible</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/airpod.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Air buds</h2>
+                            <h3>$1500.55</h3>
+
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>3.99</span>
+                            </div>
+                            <p class="blog-info">Worldwide shifting available</p>
+                            <p>single-items available</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/drone.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Drone</h2>
+                            <h3>$2700.88</h3>
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.99</span>
+                            </div>
+                            <p class="blog-info">Remote system enabled</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/lights.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Lights</h2>
+                            <h3>$1100.55</h3>
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.99</span>
+                            </div>
+                            <p class="blog-info">Multi-funtional device.Buyers protection possible</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/camera.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Camera</h2>
+                            <h3>$2100.00</h3>
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>2.99</span>
+                            </div>
+                            <p class="blog-info">Cyber-shots available</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/single-light.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Light</h2>
+                            <h3>$1200</h3>
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>3.99</span>
+                            </div>
+                            <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/action.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Action</h2>
+                            <h3>$1400</h3>
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.99</span>
+                            </div>
+                            <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
+
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/mic.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h2 class="blog-title">Micro-phone</h2>
+                            <h3>$1700.88</h3>
+                            <div class="rating-info">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                                <span>4.99</span>
+                            </div>
+                            <p class="blog-info">Dual-action, bluetooth-speaker, multi-dimentional structure</p>
+
+                        </div>
+                    </article>
+                </div>
+                <section>
+                    <div class="more-option">
+                        <a class="see-button" target="-blank">See more<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </section>
+                <section>
+                    <div class="extra-part">
+                        <div class="part-img">
+                            <img src="images/gear.png" alt="">
+                        </div>
+                        <div class="part-info">
+                            <h2>Featured products at one Place</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam voluptatem
+                                consequatur.
+                                Exercitationem itaque voluptas nam nihil maxime eius quod veniam iure laudantium nostrum
+                                culpa,
+                                commodi
+                                optio dolore sapiente mollitia autem asperiores atque. Quo quae maiores at libero nisi
+                                nam
+                                hic,
+                                rem
+                                asperiores eaque ea vel quia. Vitae, possimus impedit!</p>
+                            <a class="button" target="-blank">Join now<i class="fas fa-arrow-right"></i></a>
+
+                        </div>
+
+                    </div>
+
+            </div>
         </section>
-        <div class="collection">
-            <h2 class="section-title">Popular Collections</h2>
-            <div class="blogs">
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/tripod.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
+    </main>
+    <!-- _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________main part end_________________________________________________________________________________________________ -->
 
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/mic.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/airpod.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/drone.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/lights.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/setup.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/camera.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/camera.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-                <article class="blog">
-                    <div class="thumbnail">
-                        <img src="images/gear.png" alt="">
-                    </div>
-                    <div class="blog-details">
-                        <h2 class="blog-title">Flex Tripod</h2>
-
-                        <p class="blog-info">Worldwide shifting available Buyers protection possible</p>
-
-                    </div>
-                </article>
-
-            </div>
-
-    </header>
     <!-- ________________footer start_____________________________ -->
     <footer>
         <div class="footer-item">
@@ -176,9 +269,16 @@
             <p>Copyright © 2020 influencer products</p>
             <p>All rights reserved</p>
         </div>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-skype"></i>
+            <i class="fab fa-whatsapp-square"></i>
+        </div>
         <div>
 
         </div>
+    </footer>
     </footer>
 </body>
 
