@@ -9,6 +9,9 @@
     color: black;
     width: 100%;
 }
+.h2-part{
+    color: indigo;
+}
 .nav-bar{
     background-color: lavender;
     display: flex;
@@ -45,19 +48,24 @@ section{
     align-items: center;
 }
 h1{
-    font-size: 4em;
+    font-size: 5em;
+    color: indigo;
 }
 .banner-info{
     width: 50%;
     margin-left: 50px;
 }
+p{
+    font-size: 22px;
+}
 .img{ 
     width: 30%;
 }
 .link-button{
+    font-size: 20px;
     background-color: lavender;
-    color: black;
-    padding: 10px;
+    color: indigo;
+    padding: 20px;
     border-radius: 50px;
 }
 hr{
@@ -71,6 +79,7 @@ main{
     justify-content: center;
 }
 .section-title{
+    color: indigo;
     margin-bottom: 100px;
     text-align: center;
     margin-top: 200px;
@@ -119,7 +128,7 @@ main{
 .see-button{
     width: 20px;
     font-size: 26px;
-    color: lightcoral;
+    color: indigo;
     padding: 20px;
 }
 .part-info{
@@ -130,19 +139,22 @@ main{
   margin-left: 50px;
 }
 h2{
-    font-size: 2em;
+    color: indigo;
+    font-size: 3em;
     font-weight: 700;
 }
 .button{
     background-color: lavender;
-    padding: 5px;
-    border-radius: 5px;
+    color: indigo;
+    padding: 20px;
+    font-size: 20px;
 }
 
 footer{
     clear:both;
     background-color: lavender;
-    color: black;
+    color: indigo
+    ;
 }
 .footer-item{
     text-align: center;
