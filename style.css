@@ -1,3 +1,9 @@
+
+/* ________________nav-bar toggler__________________________________ */
+/* _________________________________________________________________ */
+#nav-toggler{
+    display: none;
+}
 .body{
     font-family: 'Mulish', sans-serif;
     color: black;
@@ -25,6 +31,9 @@
 }
 .nav-bar ul li a:hover{
     color: lightcoral;
+}
+.nav-toggler-icon{
+    display: none;
 }
 section{
     margin-top: 70px;
@@ -151,13 +160,22 @@ footer{
 /* ++++++++++++++++++++++++Mobile devices++++++++++++++++++++++++++++ */
 /* ________________________________________________________________________________ */
 
+/* __________________________responsive design_________________________________ */
 
-@media only screen and (max-width:688px) and (max-width:992px) {
- 
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .nav-bar{
+        min-width: 180%;
+    }
+    .top-banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
     .blogs{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
         grid-column-gap: 2px;
+        justify-content: center;
         align-items: center;
     }
     .extra-part{
@@ -167,6 +185,19 @@ footer{
         align-items: center;
     }
     footer{
+        min-width: 200%;
+    }
+    .nav-bar{
+        position: fixed;
+        top: 2px;
+        height: 40px;
+        left: 0;
         width: 100%;
+    }
+    .nav-toggler-icon{
+        top: o;
+        margin-left: 500px;
+        position: fixed;
+        display: block ;
     }
     
